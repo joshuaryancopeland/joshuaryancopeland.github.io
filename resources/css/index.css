@@ -16,7 +16,7 @@ body {
     width: 200;
     padding: 2em;
     outline: 2px solid black;
-    background-image: url('./images/astro.jpg');
+    background-image: url('../images/astro.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -38,6 +38,7 @@ body {
 
 h1 {
     text-align: center;
+    color: pink;
 }
 
 p {
