@@ -2,25 +2,33 @@
     outline: 2px solid lightgrey;
 }
 */
-body {
+html {
+    min-height: 100%;
+    background-image: url('../images/astro.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+body, html {
     background-color: none;
-    background-size: 650px 200px;
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-.backgroundimage {
+/*.backgroundimage {
     height: 200;
     width: 200;
     padding: 2em;
     outline: 2px solid black;
-    background-image: url('../images/astro.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+*/
 
 .navigation {
     list-style-type: none;
@@ -30,6 +38,7 @@ body {
     margin: auto;
     padding: 0;
     width: 50%;
+    color: white;
 }
 
 /*#banner {
