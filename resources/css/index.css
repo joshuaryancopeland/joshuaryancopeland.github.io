@@ -43,19 +43,26 @@ body {
     width: 100%;
 }
 
+#spotify2 {
+    visibility: hidden;
+}
+
 /*#banner {
 }
 */
 
 h1 {
     text-align: center;
-    color: red;
+    color: #79bbd9;
+    height:20px;
 }
 
 p {
     text-align: center;
+    color: #79bbd9;
+    height: 5px;
 } 
 
 .welcome {
-    color: white
+    color: #79bbd9;
 }
