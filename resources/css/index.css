@@ -43,11 +43,10 @@ body {
     width: 100%;
 }
 
-/* #spotify {
-    visibility: hidden;
-}
-
-/*#banner {
+#banner {
+    height: 20px;
+    width: 100%;
+    color: #79bbd9
 }
 */
 
