@@ -18,6 +18,7 @@ body {
     min-width: 320px;
     margin: 0;
     padding: 0;
+    border: 3px dotted white;
     text-align: center;
     
 }
@@ -38,6 +39,7 @@ body {
     font-weight: 100%;
     letter-spacing: 2px;
     text-align: center;
+    min-width: 320px;
     padding: 40px;
     color: black;
     background-color:aquamarine;
@@ -54,7 +56,8 @@ body {
 /* h1 -> Banner -> content */
 
 h1 {
-    padding: 20px 20px 10px 20px;
+    min-width: 320px;
+    padding: 20px 20px 10px 320px;
     border: 3px dotted red;
 
 }
@@ -63,7 +66,8 @@ h1 {
     text-align: center;
     color: #79bbd9;
     height:20px;
-    padding: 40px 40px 40px 40px;
+    min-width: 320px;
+    padding: 40px 40px 50px 40px;
     margin: 10px 700px 10px 10px;
     border: 2px dotted red;
     border-radius: 15px;
@@ -87,13 +91,15 @@ p {
 } 
 
 #welcomeupdate {
-    padding: 20px 20px 10px 20px;
+    min-width: 320px;
+    padding: 20px 20px 10px 320px;
     border: 3px dotted red;
 }
 .welcome {
     color: white;
+    min-width: 320px;
     padding: 10px 20px 130px 20px;
-    margin: 10px 700px 10px 10px;
+    margin: 10px 700px 10px 40px;
     border: 2px dotted red;
     border-radius: 15px;
 
@@ -101,8 +107,9 @@ p {
 
 .update {
     color:palevioletred;
+    min-width: 320px;
     padding: 10px 30px 40px 30px;
-    margin: 10px 5px 10px 600px;
+    margin: 0px 5px 10px; 
     border: 2px dotted red;
     border-radius: 15px;
 
