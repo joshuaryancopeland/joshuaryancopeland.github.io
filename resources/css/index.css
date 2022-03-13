@@ -17,6 +17,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    
 }
 
 /*.backgroundimage {
@@ -36,32 +37,64 @@ body {
     letter-spacing: 2px;
     text-align: center;
     margin: auto;
-    padding: 0;
+    padding: 20px;
     width: 50%;
     color: white;
     height: 15px;
     width: 100%;
+    border: 2px solid red;
+    border-radius: 15px;
+
 }
 
-#banner {
-    height: 20px;
-    width: 100%;
-    color: #79bbd9
-}
-*/
+/* h1 -> Banner -> content */
 
 h1 {
+border: 3px dotted white;
+
+}
+
+.hello {
     text-align: center;
     color: #79bbd9;
     height:20px;
+    padding: 40px;
+    border: 2px solid white;
+    border-radius: 15px;
+
 }
+
+/* #banner .content h1{
+    height: 20px;
+    width: 100%;
+    color: #79bbd9;
+    border: 3px dotted greenyellow;
+
+} */
 
 p {
     text-align: center;
     color: #79bbd9;
     height: 5px;
+    /* padding: 20px; */
+
 } 
 
+#backgroundimage {
+    border: 3px dotted pink;
+}
 .welcome {
-    color: #79bbd9;
+    color: white;
+    padding: 50px;
+    border: 2px solid pink;
+    border-radius: 15px;
+
+}
+
+.update {
+    color:aquamarine;
+    padding: 20px;
+    border: 2px solid violet;
+    border-radius: 15px;
+
 }
