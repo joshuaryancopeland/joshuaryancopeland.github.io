@@ -6,7 +6,7 @@ html {
     font-family: 'Raleway', sans-serif;
     min-height: 100%;
     max-height: 200%;
-    background-image: url('../images/astro.jpg');
+    /* background-image: url('../images/astro.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background-color: none;
+    background-color: black;
     min-width: 320px;
     margin: 0;
     padding: 0;
@@ -39,21 +39,23 @@ body {
     letter-spacing: 2px;
     text-align: center;
     padding: 40px;
-    color: white;
+    color: black;
+    background-color:aquamarine;
     border: 2px dotted red;
-    border-radius: 15px;
+    border-radius: 0px;
     
 }
 
 #about {
+    color: red;
     border: 2px solid red;
 }
 
 /* h1 -> Banner -> content */
 
 h1 {
-    padding: 10px 20px 10px 20px;
-    border: 3px dotted white;
+    padding: 20px 20px 10px 20px;
+    border: 3px dotted red;
 
 }
 
@@ -63,7 +65,7 @@ h1 {
     height:20px;
     padding: 40px 40px 40px 40px;
     margin: 10px 700px 10px 10px;
-    border: 2px solid white;
+    border: 2px dotted red;
     border-radius: 15px;
 
 }
@@ -86,22 +88,22 @@ p {
 
 #welcomeupdate {
     padding: 20px 20px 10px 20px;
-    border: 3px dotted pink;
+    border: 3px dotted red;
 }
 .welcome {
     color: white;
     padding: 10px 20px 130px 20px;
     margin: 10px 700px 10px 10px;
-    border: 2px solid pink;
+    border: 2px dotted red;
     border-radius: 15px;
 
 }
 
-/* .update {
+.update {
     color:palevioletred;
     padding: 10px 30px 40px 30px;
     margin: 10px 5px 10px 600px;
-    border: 2px solid violet;
+    border: 2px dotted red;
     border-radius: 15px;
 
-} */
+}
