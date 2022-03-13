@@ -57,7 +57,7 @@ body {
 
 h1 {
     min-width: 320px;
-    padding: 20px 20px 10px 320px;
+    padding: 20px 20px 10px 500px;
     border: 3px dotted red;
 
 }
@@ -92,7 +92,7 @@ p {
 
 #welcomeupdate {
     min-width: 320px;
-    padding: 20px 20px 10px 320px;
+    padding: 20px 20px 10px 500px;
     border: 3px dotted red;
 }
 .welcome {
@@ -107,9 +107,9 @@ p {
 
 .update {
     color:palevioletred;
-    min-width: 320px;
+    min-width: 150px;
     padding: 10px 30px 40px 30px;
-    margin: 0px 5px 10px; 
+    margin: 0px 475px 10px 0px; 
     border: 2px dotted red;
     border-radius: 15px;
 
