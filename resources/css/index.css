@@ -59,7 +59,8 @@ h1 {
     text-align: center;
     color: #79bbd9;
     height:20px;
-    padding: 40px;
+    padding: 40px 40px 40px 40px;
+    margin: 10px 700px 10px 10px;
     border: 2px solid white;
     border-radius: 15px;
 
@@ -81,13 +82,14 @@ p {
 
 } 
 
-#backgroundimage {
-    padding: 10px 20px 10px 20px;
+#welcomeupdate {
+    padding: 20px 20px 10px 20px;
     border: 3px dotted pink;
 }
 .welcome {
     color: white;
-    padding: 40px;
+    padding: 10px 20px 130px 20px;
+    margin: 10px 700px 10px 10px;
     border: 2px solid pink;
     border-radius: 15px;
 
@@ -95,7 +97,8 @@ p {
 
 .update {
     color:aquamarine;
-    padding: 40px;
+    padding: 10px 30px 40px 30px;
+    margin: 10px 5px 10px 600px;
     border: 2px solid violet;
     border-radius: 15px;
 
