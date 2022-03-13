@@ -36,21 +36,22 @@ body {
     font-weight: 100%;
     letter-spacing: 2px;
     text-align: center;
-    margin: auto;
-    padding: 20px;
-    width: 50%;
+    padding: 40px;
     color: white;
-    height: 15px;
-    width: 100%;
-    border: 2px solid red;
+    border: 2px dotted red;
     border-radius: 15px;
+    
+}
 
+#about {
+    border: 2px solid red;
 }
 
 /* h1 -> Banner -> content */
 
 h1 {
-border: 3px dotted white;
+    padding: 10px 20px 10px 20px;
+    border: 3px dotted white;
 
 }
 
@@ -81,11 +82,12 @@ p {
 } 
 
 #backgroundimage {
+    padding: 10px 20px 10px 20px;
     border: 3px dotted pink;
 }
 .welcome {
     color: white;
-    padding: 50px;
+    padding: 40px;
     border: 2px solid pink;
     border-radius: 15px;
 
@@ -93,7 +95,7 @@ p {
 
 .update {
     color:aquamarine;
-    padding: 20px;
+    padding: 40px;
     border: 2px solid violet;
     border-radius: 15px;
 
