@@ -67,7 +67,7 @@
     
     h1 {
         min-width: 320px;
-        padding: 40px;
+        padding: 0px;
         border: 4px dotted red;
     
     }
@@ -104,7 +104,7 @@
     
     #welcomeupdate {
         min-width: 320px;
-        padding: 40px;
+        padding: 0px;
         border: 4px dotted red;
     }
     .welcome {
