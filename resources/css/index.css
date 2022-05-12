@@ -54,6 +54,7 @@
     */
     
     .navigation {
+        font-weight: normal;
         display: block;
         list-style-type: none;
         font-weight: 100%;
@@ -80,6 +81,10 @@
     /* h1 -> Banner -> content */
     
     h1 {
+        font-size: 28px;
+        font-weight: normal;
+
+        color: #0C4854;
         min-width: 320px;
         padding: 0px;
         /* border: 4px dotted red; */
@@ -94,7 +99,7 @@
         bottom: 0px;
         height: 20px;
         min-width: 150px;
-        padding: 40px;
+        padding: 5px;
         /* margin: 10px 700px 10px 10px; */
         /* border: 2px dotted red; */
         border-radius: 15px;
@@ -111,7 +116,6 @@
     
     p {
         text-align: center;
-        color: white;
         height: 5px;
         /* padding: 20px; */
     
