@@ -74,9 +74,9 @@
         
     }
 
-    .navigation :visited {
+    a:link, a:visited, a:hover, a:active {
         text-decoration: none;
-
+        color: #0C4854;
     }
     
     #about {
