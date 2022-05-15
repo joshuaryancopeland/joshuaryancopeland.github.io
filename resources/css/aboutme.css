@@ -17,8 +17,6 @@ html {
     width: 100%;
     z-index: 0;
     background-size: cover;
-    /* background-repeat: no-repeat; */
-    /* background-attachment: fixed; */
     background-size:100%;
     -moz-background-size:100%;
     z-index: 0;
@@ -31,29 +29,27 @@ body {
     min-height: 750px;
     margin: 0;
     padding: 0;
-    /* border: 3px dotted white; */
     text-align: center;    
 }
 
+/*  position:sticky is not functioning properly as it is in index.css
+    -unsure why this is. The code is the exact same as index.css */
 .navigation {
     font-weight: normal;
     text-align: center;
     text-decoration: none;
-    display: block;
     list-style-type: none;
     font-weight: 100%;
     letter-spacing: 12px;
     min-width: 320px;
     padding: 5px;
     position: sticky;
-    top: 0px;
+    top: 0%;
     color: #0C4854;
     background-image: linear-gradient(#7ab8d5, #D9effb);
     opacity: 0.5;
-    /* background-color:rgb(31, 30, 30); */
-    /* border: 3px dotted white; */
     border-radius: 0px;
-    z-index: 1;   
+    z-index: 1;  
 }
 
 a:link, a:visited, a:hover, a:active {
