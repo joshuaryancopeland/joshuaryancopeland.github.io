@@ -74,7 +74,7 @@
     
     }
     
-    .intro {
+    .welcome {
         text-align: center;
         color: #0C4854;
         position: relative;
@@ -93,20 +93,31 @@
     } 
 
     .click {
+        /* border: 3px dotted black; */
+        border-radius: 15px;
         color:#0C4854;
         font-size: 20px;
+        /* margin-bottom: 100px; */
+        padding-top: 50px;
+        padding-bottom: 25px;
     }
     
-    .git {
+    img.git {
+        background-image: linear-gradient(#7ab8d5,#0C4854);
+        /* border: 7px dotted black; */
+        border-radius: 25px;
         height: 50px;
-        opacity: 0.2;
-        width: 100px;
+        opacity: 0.4;
+        text-align: center;
+        width: 50px;
     }
 
     .update {
-        text-align:center;
+        /* border: 3px dotted black; */
+        border-radius: 15px;
         color: #2BA3C2;
         min-width: 150px;
-        padding: 40px;
-        border-radius: 15px;
+        padding: 20px;
+        text-align:center;
+
     }
