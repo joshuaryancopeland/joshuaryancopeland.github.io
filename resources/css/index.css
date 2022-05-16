@@ -12,13 +12,14 @@
     @media screen and (min-width: 320px) and (max-width: 1156px){
 
         .site-bg-dl {
-        position: fixed;
+        /* position: fixed; */
         height: 100%;
         width: 100%;
         z-index: 0;
         background-size: cover;
         background-size:100% 100%;
         -moz-background-size:100% 100%;
+        overflow: scroll;
     }
 }
     
@@ -117,7 +118,7 @@
         border-radius: 15px;
         color: #2BA3C2;
         min-width: 150px;
-        padding: 20px;
+        padding: 5px;
         text-align:center;
 
     }
