@@ -24,8 +24,8 @@
     
     body {
         background-color: none;
-        min-width: 320px;
-        min-height: 750px;
+        /* min-width: 320px;
+        min-height: 750px; */
         margin: 0;
         padding: 0;
         text-align: center;
@@ -91,17 +91,22 @@
         text-align: center;
         height: 5px;    
     } 
-    
-    #welcomeupdate {
-        min-width: 320px;
-        padding: 0px;
+
+    .click {
+        color:#0C4854;
+        font-size: 20px;
     }
     
+    .git {
+        height: 50px;
+        opacity: 0.2;
+        width: 100px;
+    }
+
     .update {
-        text-align: center;
+        text-align:center;
         color: #2BA3C2;
         min-width: 150px;
         padding: 40px;
         border-radius: 15px;
-    
     }
