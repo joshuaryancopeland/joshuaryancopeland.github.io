@@ -12,23 +12,22 @@
     @media screen and (min-width: 320px) and (max-width: 1156px){
 
         .site-bg-dl {
-        /* position: fixed; */
+        position: fixed;
         height: 100%;
         width: 100%;
         z-index: 0;
         background-size: cover;
         background-size:100% 100%;
         -moz-background-size:100% 100%;
-        overflow: scroll;
     }
 }
     
     body {
         background-color: none;
-        /* min-width: 320px;
-        min-height: 750px; */
         margin: 0;
-        padding: 0;
+        min-width: 320px;
+        min-height: 750px;
+        /* padding: 0; */
         text-align: center;
         
     }
@@ -41,7 +40,7 @@
         list-style-type: none;
         font-weight: 100%;
         letter-spacing: 12px;
-        min-width: 320px;
+        /* min-width: 320px; */
         padding: 5px;
         position: sticky;
         top: 0px;
@@ -61,7 +60,7 @@
     #about {
         text-align: center;
         color: #0C4854;
-        min-width: 320px;
+        /* min-width: 320px; */
     }
     
     /* h1 -> Banner -> content */
@@ -70,7 +69,7 @@
         font-size: 28px;
         font-weight: normal;
         color: #0C4854;
-        min-width: 320px;
+        /* min-width: 320px; */
         padding: 0px;
     
     }
@@ -78,11 +77,10 @@
     .welcome {
         text-align: center;
         color: #0C4854;
-        position: relative;
+        /* position: relative; */
         float: none;
         bottom: 0px;
         height: 20px;
-        min-width: 320px;
         padding: 5px;
         border-radius: 15px;
     
@@ -117,7 +115,7 @@
         /* border: 3px dotted black; */
         border-radius: 15px;
         color: #2BA3C2;
-        min-width: 150px;
+        /* min-width: 150px; */
         padding: 5px;
         text-align:center;
 
