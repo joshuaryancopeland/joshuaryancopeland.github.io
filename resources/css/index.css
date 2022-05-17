@@ -109,7 +109,7 @@
     .button {
         background-color:#0C4854;
         background-image: linear-gradient(#7ab8d5, #0C4854);
-        /* box-shadow: 2px 2px 2px 5px hwb(195 24% 20%); */
+        border: none;
         border-radius: 180px;
         color: white;
         opacity: .75;
@@ -120,5 +120,5 @@
 
     .update {
         color:#0C4854;
-        padding-top: 50px;;
+        padding-top: 35px;;
     }
