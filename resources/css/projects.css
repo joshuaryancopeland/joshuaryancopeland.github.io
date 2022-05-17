@@ -96,6 +96,7 @@ a:link, a:visited, a:hover, a:active {
     /* border: dotted black 5px; */
     color:#0C4854;
     float: center-left;
+    margin-right: auto;
     padding: 20px;
     position: relative;
     right: 100px;
@@ -106,6 +107,7 @@ a:link, a:visited, a:hover, a:active {
     /* border: dotted black 5px; */
     color:#0C4854;
     float: center-right;
+    margin-left: auto;
     padding: 20px;
     position: relative;
     top: 20px;
