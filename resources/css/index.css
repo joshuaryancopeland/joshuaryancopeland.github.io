@@ -104,9 +104,9 @@
     img.git {
         background-image: linear-gradient(#7ab8d5,#0C4854);
         /* border: 7px dotted black; */
-        border-radius: 25px;
+        border-radius: 360px;
         height: 50px;
-        opacity: 0.4;
+        opacity: .4;
         text-align: center;
         width: 50px;
     }
