@@ -103,19 +103,16 @@
     
     img.git {
         background-image: linear-gradient(#7ab8d5,#0C4854);
-        /* border: 7px dotted black; */
-        border-radius: 360px;
+        /* border: 7px dotted white; */
+        border-radius: 50px;
         height: 50px;
-        opacity: .4;
+        opacity: 0.4;
         text-align: center;
         width: 50px;
     }
 
     .update {
-        /* border: 3px dotted black; */
-        border-radius: 15px;
         color: #2BA3C2;
-        /* min-width: 150px; */
         padding: 5px;
         text-align:center;
 
