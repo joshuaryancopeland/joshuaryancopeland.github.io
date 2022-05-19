@@ -110,15 +110,25 @@
         background-color:#0C4854;
         background-image: linear-gradient(#7ab8d5, #0C4854);
         border: none;
-        border-radius: 180px;
+        border-radius: 25px;
         color: white;
         font-family: 'Raleway', sans-serif;
         font-weight: light;
-        opacity: .75;
+        opacity: .7;
         padding-top: px;
         text-align:center;
         vertical-align: middle;
+        
     }
+
+    button:hover {
+        opacity: 1;
+        /* transition: all 1000ms ease;  */
+    }
+
+    /* button::after {
+
+    } */
 
     .update {
         color:#0C4854;
