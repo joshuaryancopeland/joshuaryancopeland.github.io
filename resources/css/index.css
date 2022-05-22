@@ -71,6 +71,7 @@
     }
     
     .welcome {
+        /* border: dotted black 5px; */
         text-align: center;
         color: #0C4854;
         float: none;

@@ -59,7 +59,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .welcome {
-    height: 400px;
+    border: dotted black 5px;
     letter-spacing: 3px;
     top: 20px;
 }
