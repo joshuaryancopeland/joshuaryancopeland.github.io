@@ -60,7 +60,7 @@ a:link, a:visited, a:hover, a:active {
 
 /* width: auto is default value where browser calculates width automatically */
 .welcome {
-    border: dotted black 5px;
+    /* border: dotted black 5px; */
     letter-spacing: 3px;
     width: auto; 
     top: 20px;
