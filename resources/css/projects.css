@@ -87,19 +87,25 @@ a:link, a:visited, a:hover, a:active {
 
 }
 
-#pyscript {
-    /* background-color:#0C4854; */
+img#pyscript {
+    background-color:#0C4854;
     background-image: linear-gradient(#7ab8d5, #0C4854);
-    border: none;
-    border-radius: 6px;
+    /* border: dotted black 10px; */
+    border-radius: 180px;
     color: white;
     font-family: 'Raleway', sans-serif;
     font-weight: light;
+    height: 200px;
     letter-spacing: 1.5px;
-    max-width: 280px;
-    opacity: .7;
+    /* max-width: 280px; */
+    opacity: .2;
     padding: 8px;
     text-align:center;
     vertical-align: middle;
+    width: 200px;
 
+}
+
+#pyscript:hover {
+    opacity: .6;
 }
