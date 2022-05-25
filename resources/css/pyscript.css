@@ -54,14 +54,16 @@ a:link, a:visited, a:hover, a:active {
     text-decoration: none;
 }
 
-.myscript {
-    color: #0C4854;
-}
-
 /* width: auto is default value where browser calculates width automatically */
 .welcome {
     /* border: dotted black 5px; */
     letter-spacing: 3px;
+    padding: 10px;
     width: auto; 
     top: 20px;
+}
+
+.description {
+    border: dotted black 5px;
+    padding: 100px;
 }
