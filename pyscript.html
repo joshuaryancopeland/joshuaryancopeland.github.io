@@ -28,7 +28,7 @@
 </header>
 <body>
     <!-- <h1 class="myscript">My Pyscript</h1> -->
-        <div class="welcome">
+        <div class="header">
             <py-env>
                 - bokeh
                 - numpy
@@ -48,15 +48,15 @@
                 </py-box>
                 <footer id="err-div" class="bg-red-700 text-white text-center border-t-4 border-green-500 fixed inset-x-0 bottom-0 p-4 hidden">
                 </footer>
-        <div class=".description">
-            <py-script > 
+        <div class="description">
+            <py-script id="welcome"> 
                 <p>print('Welcome to my Pyscript! For those who do not know, Pyscript is a new technology that emerged Spring 2022. It is a Javascript framework that allows developers to create Python applications in web browsers using Python and HTML. It enables the use of Python and its large ecosystem of libraries. Press F12 to see more! FYI, this paragrapgh was written using Pyscript.')</p>
                     </py-script>
         </div>
         <div class="clock">
             <py-script id="py">
                 import datetime
-                f'Hello Google, it is {datetime.datetime.now()}'
+                f'Hello visitor, it is {datetime.datetime.now()}'
             </py-script>
         </div>
             <!-- <p>I plan to have something very exciting on this page by Tuesday at 1100 May 25, 2022!</p> -->
