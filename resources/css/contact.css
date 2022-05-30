@@ -64,4 +64,5 @@ a:link, a:visited, a:hover, a:active {
     /* border: dotted black 5px; */
     color:#0C4854;
     padding: 100px;
+    text-align: center;
 }
