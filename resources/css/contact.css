@@ -63,6 +63,7 @@ a:link, a:visited, a:hover, a:active {
 .info {
     /* border: dotted black 5px; */
     color:#0C4854;
+    font-size: 25px;
     padding-top: 100px;
     text-align: center;
 }
