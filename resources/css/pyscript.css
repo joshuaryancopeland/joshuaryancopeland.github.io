@@ -49,6 +49,12 @@ body {
     top: 5px;
 }
 
+#about {
+    color: #0C4854;
+    min-width: 320px;
+    text-align: center;
+}
+
 a:link, a:visited, a:hover, a:active {
     color: #0C4854;
     text-decoration: none;
@@ -61,9 +67,9 @@ a:link, a:visited, a:hover, a:active {
     top: 50px;
 }
 
-#what {
-    color: linear-gradient(red, purple);
-}
+/* #what {
+ 
+} */
 
 .description {
     /* border: dotted black 5px; */

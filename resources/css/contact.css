@@ -32,3 +32,40 @@ body {
     padding: 0;
     text-align: center;
 }
+
+.navigation {
+    background-image: linear-gradient(#7ab8d5, #D9effb);
+    color: #0C4854;
+    /* display: block; */
+    font-weight: light;
+    letter-spacing: 12px;
+    list-style-type: none;
+    opacity: .5;
+    padding: 5px;
+    position: sticky;
+    text-align: center;
+    text-decoration:none;
+    top: 5px;
+}
+
+#about {
+    color: #0C4854;
+    min-width: 320px;
+    text-align: center;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #0C4854;
+    text-decoration: none;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #0C4854;
+    text-decoration: none;
+}
+
+.info {
+    /* border: dotted black 5px; */
+    color:#0C4854;
+    padding: 100px;
+}
