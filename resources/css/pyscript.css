@@ -67,9 +67,11 @@ a:link, a:visited, a:hover, a:active {
     top: 50px;
 }
 
-/* #what {
- 
-} */
+#what {
+    background-image: linear-gradient(43deg, yellow 0%, red 40%, blue 100%, yellow 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
 
 .description {
     /* border: dotted black 5px; */
