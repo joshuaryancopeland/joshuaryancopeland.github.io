@@ -32,8 +32,11 @@
     }
     
     .navigation {
+        background: inherit;
+        backdrop-filter: blur(10px);
         background-image: linear-gradient(#7ab8d5, #D9effb);
         border-radius: 0px;
+        box-shadow: 0 0 2.5px 0;
         color: #0C4854;
         display: block;
         font-weight: 100%;
