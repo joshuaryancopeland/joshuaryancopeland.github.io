@@ -67,7 +67,7 @@ a:link, a:visited, a:hover, a:active {
     text-decoration: none;
 }
 
-.comingsoon {
+.python {
     /* border: dotted black 5px; */
     color: #0C4854;
     float: none;
@@ -113,3 +113,18 @@ img#pyscript {
 #pyscript:hover {
     opacity: .4;
 }
+
+/* img#friends {
+    background-color:#0C4854;
+    background-image: linear-gradient(#7ab8d5, #0C4854);
+    border-radius: 360px;
+    color: white;
+    height: 200px;
+    letter-spacing: 1.5px;
+    margin-left: 25px;
+    opacity: .2;
+    padding: 8px;
+    text-align:center;
+    vertical-align: middle;
+    width: 280px;
+} */
